@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://6vy8vt7jk7p5"
+path="res://.godot/imported/Modern6.ogg-77a127fe29af1375fcd64a55f20598fd.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI Soundpack/OGG/Modern6.ogg"
+dest_files=PackedStringArray("res://.godot/imported/Modern6.ogg-77a127fe29af1375fcd64a55f20598fd.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

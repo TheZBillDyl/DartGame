@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://40fm0lsnf6kk"
+path="res://.godot/imported/Modern11.wav-26d59e398abe30246f21581539418336.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Modern11.wav"
+dest_files=PackedStringArray("res://.godot/imported/Modern11.wav-26d59e398abe30246f21581539418336.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dhw3taf5aq1pu"
+path="res://.godot/imported/Retro5.wav-04075dc2915dffb2fac57fc792f2bc6a.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Retro5.wav"
+dest_files=PackedStringArray("res://.godot/imported/Retro5.wav-04075dc2915dffb2fac57fc792f2bc6a.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

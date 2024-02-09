@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3tu3vdx1bdgt"
+path="res://.godot/imported/Modern8.mp3-92c1d3ce68f9877d1b90769ef7145312.mp3str"
+
+[deps]
+
+source_file="res://UI Soundpack/MP3/Modern8.mp3"
+dest_files=PackedStringArray("res://.godot/imported/Modern8.mp3-92c1d3ce68f9877d1b90769ef7145312.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

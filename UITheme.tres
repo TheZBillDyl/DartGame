@@ -1,0 +1,25 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://ddf4s1o57ye87"]
+
+[ext_resource type="FontFile" uid="uid://m5cp40qi15dk" path="res://duality.otf" id="1"]
+[ext_resource type="StyleBox" path="res://ButtonNormal.tres" id="2"]
+[ext_resource type="StyleBox" path="res://ButtonPressed.tres" id="3"]
+[ext_resource type="StyleBox" path="res://OptionButtonNormal.tres" id="4"]
+[ext_resource type="StyleBox" path="res://OptionButtonPressed.tres" id="5"]
+[ext_resource type="StyleBox" path="res://TextEditNormal.tres" id="6"]
+
+[sub_resource type="StyleBoxFlat" id="1"]
+bg_color = Color(0.419608, 0.368627, 0.301961, 1)
+
+[resource]
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("1")
+Button/styles/hover = ExtResource("2")
+Button/styles/normal = ExtResource("2")
+Button/styles/pressed = ExtResource("3")
+Label/fonts/font = ExtResource("1")
+OptionButton/styles/hover = ExtResource("4")
+OptionButton/styles/normal = ExtResource("4")
+OptionButton/styles/pressed = ExtResource("5")
+Panel/styles/panel = SubResource("1")
+TextEdit/styles/focus = ExtResource("6")
+TextEdit/styles/normal = ExtResource("6")

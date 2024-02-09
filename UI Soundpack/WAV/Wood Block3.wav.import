@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hpi82ta64f82"
+path="res://.godot/imported/Wood Block3.wav-c79c43190da96af38b573d38a915125b.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Wood Block3.wav"
+dest_files=PackedStringArray("res://.godot/imported/Wood Block3.wav-c79c43190da96af38b573d38a915125b.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

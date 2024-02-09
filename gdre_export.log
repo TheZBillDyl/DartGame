@@ -1,0 +1,163 @@
+GDRE Tools v0.6.2
+Windows 10.0.19045, NVIDIA GeForce RTX 3060 Ti, opengl3
+Extracted 459 files, no errors detected!
+USER WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:58)
+Recreated plugin config for onscreenkeyboard
+Did not rewrite import metadata for res://icon.svg
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     0
+Failed scripts:                         0
+Imported resources for export session:  459
+Successfully converted:                 209
+Lossy:                                  120
+Rewrote metadata:                       0
+Non-importable conversions:             1
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+The following files were converted from an import that was stored lossy.
+You may lose fidelity when re-importing these files upon loading the project.
+res://.godot/imported/BorderMask.png-bba7d578732459ff52e201ffbae58e7c.res to res://Dart Pieces/BorderMask.png
+res://.godot/imported/SmallClickMask.png-6401149f41757e6fe6c7fe5680ba1ab7.res to res://Dart Pieces/SmallClickMask.png
+res://.godot/imported/Abstract1.ogg-bca3231cd491aa006851a5c4f51eaffe.oggvorbisstr to res://UI Soundpack/OGG/Abstract1.ogg
+res://.godot/imported/Abstract2.ogg-14cffb284e9c0f6f81c5e0938136913b.oggvorbisstr to res://UI Soundpack/OGG/Abstract2.ogg
+res://.godot/imported/African1.ogg-bd3932687b7d1e775eea14af576838e7.oggvorbisstr to res://UI Soundpack/OGG/African1.ogg
+res://.godot/imported/African2.ogg-b4ddf11d5fa8f864a07278e9a5ffe057.oggvorbisstr to res://UI Soundpack/OGG/African2.ogg
+res://.godot/imported/African3.ogg-12f2c412de24142c072b6f79763ddfe8.oggvorbisstr to res://UI Soundpack/OGG/African3.ogg
+res://.godot/imported/African4.ogg-6226e2e684c4a520158bac80412e100d.oggvorbisstr to res://UI Soundpack/OGG/African4.ogg
+res://.godot/imported/Coffee1.ogg-fd8d290c2e9c915fecfaf020331cacf2.oggvorbisstr to res://UI Soundpack/OGG/Coffee1.ogg
+res://.godot/imported/Coffee2.ogg-e7e612dc7c02b4210147467b988eb82f.oggvorbisstr to res://UI Soundpack/OGG/Coffee2.ogg
+res://.godot/imported/Minimalist1.ogg-53872b21385c0404755213d1a1165b4b.oggvorbisstr to res://UI Soundpack/OGG/Minimalist1.ogg
+res://.godot/imported/Minimalist10.ogg-21f9bf1946434f97a4e8a8bc514f9f75.oggvorbisstr to res://UI Soundpack/OGG/Minimalist10.ogg
+res://.godot/imported/Minimalist11.ogg-c71863e5430a7463148736c056d1ca49.oggvorbisstr to res://UI Soundpack/OGG/Minimalist11.ogg
+res://.godot/imported/Minimalist12.ogg-92f68cf1d0a7b1e3d84d76eb2e03b2bf.oggvorbisstr to res://UI Soundpack/OGG/Minimalist12.ogg
+res://.godot/imported/Minimalist13.ogg-0ff6a27d6a00d3c06e7423c2c18ead92.oggvorbisstr to res://UI Soundpack/OGG/Minimalist13.ogg
+res://.godot/imported/Minimalist2.ogg-3bbe26228289d6cc9d78c839116fe2e4.oggvorbisstr to res://UI Soundpack/OGG/Minimalist2.ogg
+res://.godot/imported/Minimalist3.ogg-f84da53d49ffe117be6af82b13340eca.oggvorbisstr to res://UI Soundpack/OGG/Minimalist3.ogg
+res://.godot/imported/Minimalist4.ogg-dc557077cddc98a89d650b861c4dbf83.oggvorbisstr to res://UI Soundpack/OGG/Minimalist4.ogg
+res://.godot/imported/Minimalist5.ogg-56b13c4354ee62bf07539fd2f8586ff6.oggvorbisstr to res://UI Soundpack/OGG/Minimalist5.ogg
+res://.godot/imported/Minimalist6.ogg-cfbf8eb9c5dfec7824e7698db3d22d14.oggvorbisstr to res://UI Soundpack/OGG/Minimalist6.ogg
+res://.godot/imported/Minimalist7.ogg-67e32c8cc9ff17a279a6f85fe4716eb6.oggvorbisstr to res://UI Soundpack/OGG/Minimalist7.ogg
+res://.godot/imported/Minimalist8.ogg-4ef473dc119842737b075d7eaedb796f.oggvorbisstr to res://UI Soundpack/OGG/Minimalist8.ogg
+res://.godot/imported/Minimalist9.ogg-8a3179d9730da08a2dd9c0e261b6816b.oggvorbisstr to res://UI Soundpack/OGG/Minimalist9.ogg
+res://.godot/imported/Modern1.ogg-7f890af24df04956f40322dc4a1adfe9.oggvorbisstr to res://UI Soundpack/OGG/Modern1.ogg
+res://.godot/imported/Modern10.ogg-b3625f6533bcac858ef1d47aa10bdf1a.oggvorbisstr to res://UI Soundpack/OGG/Modern10.ogg
+res://.godot/imported/Modern11.ogg-cb564011ce725a0f5aec5d4204069077.oggvorbisstr to res://UI Soundpack/OGG/Modern11.ogg
+res://.godot/imported/Modern12.ogg-a6adca999e5078e396b1a0b4fea058c3.oggvorbisstr to res://UI Soundpack/OGG/Modern12.ogg
+res://.godot/imported/Modern13.ogg-52c3b0e7a964c44fcbe8d949c119dc28.oggvorbisstr to res://UI Soundpack/OGG/Modern13.ogg
+res://.godot/imported/Modern14.ogg-692480c4317329d867c17974778bfa92.oggvorbisstr to res://UI Soundpack/OGG/Modern14.ogg
+res://.godot/imported/Modern15.ogg-82d374b7f7cd4f7feab92534a24f4f36.oggvorbisstr to res://UI Soundpack/OGG/Modern15.ogg
+res://.godot/imported/Modern16.ogg-cb3c5ffa1ecb3ce13eb19de7c6903949.oggvorbisstr to res://UI Soundpack/OGG/Modern16.ogg
+res://.godot/imported/Modern2.ogg-8288994345213b51b56d16a85422abec.oggvorbisstr to res://UI Soundpack/OGG/Modern2.ogg
+res://.godot/imported/Modern3.ogg-4fda8e0dbf93d6bd6ec666a8059ba6ea.oggvorbisstr to res://UI Soundpack/OGG/Modern3.ogg
+res://.godot/imported/Modern4.ogg-def7d0f89a2fe3d7e5b4ce9ddd95f6eb.oggvorbisstr to res://UI Soundpack/OGG/Modern4.ogg
+res://.godot/imported/Modern5.ogg-9665b94cbd39a5f32bdcb5aa75177725.oggvorbisstr to res://UI Soundpack/OGG/Modern5.ogg
+res://.godot/imported/Modern6.ogg-77a127fe29af1375fcd64a55f20598fd.oggvorbisstr to res://UI Soundpack/OGG/Modern6.ogg
+res://.godot/imported/Modern7.ogg-d58c046ac22ca604acc7a85175441e05.oggvorbisstr to res://UI Soundpack/OGG/Modern7.ogg
+res://.godot/imported/Modern8.ogg-c1d9251233d48b6871d5080a75df37c8.oggvorbisstr to res://UI Soundpack/OGG/Modern8.ogg
+res://.godot/imported/Modern9.ogg-30b41aaec0d586780ed636a79dcd4e7b.oggvorbisstr to res://UI Soundpack/OGG/Modern9.ogg
+res://.godot/imported/Retro1.ogg-ace6237ab3586b648b90335dc89b74d0.oggvorbisstr to res://UI Soundpack/OGG/Retro1.ogg
+res://.godot/imported/Retro10.ogg-3b6f51216bae7dc16ecb92a809dce850.oggvorbisstr to res://UI Soundpack/OGG/Retro10.ogg
+res://.godot/imported/Retro11.ogg-57c563f659397958e7222bc34da2837c.oggvorbisstr to res://UI Soundpack/OGG/Retro11.ogg
+res://.godot/imported/Retro12.ogg-d3d3c801d581cb9875550c81e17a731e.oggvorbisstr to res://UI Soundpack/OGG/Retro12.ogg
+res://.godot/imported/Retro2.ogg-a15baaeafff22de49b20f31c9a805bc9.oggvorbisstr to res://UI Soundpack/OGG/Retro2.ogg
+res://.godot/imported/Retro3.ogg-c98767454f4a5fb405a6b6ebf4a3eeb1.oggvorbisstr to res://UI Soundpack/OGG/Retro3.ogg
+res://.godot/imported/Retro4.ogg-22af3f7a370de4ee6a1d7fb8f03cf82e.oggvorbisstr to res://UI Soundpack/OGG/Retro4.ogg
+res://.godot/imported/Retro5.ogg-90d838a89ded110452996df14e86e894.oggvorbisstr to res://UI Soundpack/OGG/Retro5.ogg
+res://.godot/imported/Retro6.ogg-1785cc905103c78542b8275ad2692ff8.oggvorbisstr to res://UI Soundpack/OGG/Retro6.ogg
+res://.godot/imported/Retro7.ogg-b60e8348786768ea7ec82c83de9b9c48.oggvorbisstr to res://UI Soundpack/OGG/Retro7.ogg
+res://.godot/imported/Retro8.ogg-c78dbabce605fb5f7124ed21526f74ec.oggvorbisstr to res://UI Soundpack/OGG/Retro8.ogg
+res://.godot/imported/Retro9.ogg-9934a944a01878e436f27a8210c28890.oggvorbisstr to res://UI Soundpack/OGG/Retro9.ogg
+res://.godot/imported/Wood Block1.ogg-64057de5283e11938ace321c1868ab0d.oggvorbisstr to res://UI Soundpack/OGG/Wood Block1.ogg
+res://.godot/imported/Wood Block2.ogg-8fd5365823b3e8906181138b2f947af5.oggvorbisstr to res://UI Soundpack/OGG/Wood Block2.ogg
+res://.godot/imported/Wood Block3.ogg-900fc2c57a55060010bb866dee71e72b.oggvorbisstr to res://UI Soundpack/OGG/Wood Block3.ogg
+res://.godot/imported/Abstract1.wav-fdbc188c1979d653ea62e3d09f2237f6.sample to res://UI Soundpack/WAV/Abstract1.wav
+res://.godot/imported/Abstract2.wav-8fa0f6be3b819636a65045fdaea6c295.sample to res://UI Soundpack/WAV/Abstract2.wav
+res://.godot/imported/African1.wav-47ce91d481a328c82c595b6ffaf0d0e3.sample to res://UI Soundpack/WAV/African1.wav
+res://.godot/imported/African2.wav-38a4b4590ddbc19342140004b454897a.sample to res://UI Soundpack/WAV/African2.wav
+res://.godot/imported/African3.wav-33e8661f1682fc6ec311d8e46540bef2.sample to res://UI Soundpack/WAV/African3.wav
+res://.godot/imported/African4.wav-7abfad838c078d6a8420efe815b61724.sample to res://UI Soundpack/WAV/African4.wav
+res://.godot/imported/Coffee1.wav-474056f71c4a74d39c307f6a3a4e6ff0.sample to res://UI Soundpack/WAV/Coffee1.wav
+res://.godot/imported/Coffee2.wav-51d64f5562915acf655e26418dad2bd0.sample to res://UI Soundpack/WAV/Coffee2.wav
+res://.godot/imported/Minimalist1.wav-2256c0da7b31bc4cb814fef4dfeef9ab.sample to res://UI Soundpack/WAV/Minimalist1.wav
+res://.godot/imported/Minimalist10.wav-7fdbd33b50118e52a596cbcca936b20b.sample to res://UI Soundpack/WAV/Minimalist10.wav
+res://.godot/imported/Minimalist11.wav-c46896d0da759a46a4dfd6d220b84cbc.sample to res://UI Soundpack/WAV/Minimalist11.wav
+res://.godot/imported/Minimalist12.wav-9cec05f9ab54bc9259fa2f377e1d833d.sample to res://UI Soundpack/WAV/Minimalist12.wav
+res://.godot/imported/Minimalist13.wav-bd67a8aabee92c7c007c6a8e654ed9bf.sample to res://UI Soundpack/WAV/Minimalist13.wav
+res://.godot/imported/Minimalist2.wav-6f84014a74197bdba25ea84f38009044.sample to res://UI Soundpack/WAV/Minimalist2.wav
+res://.godot/imported/Minimalist3.wav-3c84d28fd50731a9aa4ff59176716a89.sample to res://UI Soundpack/WAV/Minimalist3.wav
+res://.godot/imported/Minimalist4.wav-5d572aeadc5ea37e42ad7a98668338f3.sample to res://UI Soundpack/WAV/Minimalist4.wav
+res://.godot/imported/Minimalist5.wav-285f1ea1167e27e9cc9de90bf0e1bbc2.sample to res://UI Soundpack/WAV/Minimalist5.wav
+res://.godot/imported/Minimalist6.wav-929528cd34fcec2fe5a19dcb93144cda.sample to res://UI Soundpack/WAV/Minimalist6.wav
+res://.godot/imported/Minimalist7.wav-8dcfa3a5f85498b22204cab715e73f4b.sample to res://UI Soundpack/WAV/Minimalist7.wav
+res://.godot/imported/Minimalist8.wav-192c588444cabdf98767bf742df6137b.sample to res://UI Soundpack/WAV/Minimalist8.wav
+res://.godot/imported/Minimalist9.wav-d35ec75a468922ce7733fc2a843e9e78.sample to res://UI Soundpack/WAV/Minimalist9.wav
+res://.godot/imported/Modern1.wav-1e9eab77a6e2c9545a9f9070985bd139.sample to res://UI Soundpack/WAV/Modern1.wav
+res://.godot/imported/Modern10.wav-20d6c443c315c39327b873fe8de4b36b.sample to res://UI Soundpack/WAV/Modern10.wav
+res://.godot/imported/Modern11.wav-26d59e398abe30246f21581539418336.sample to res://UI Soundpack/WAV/Modern11.wav
+res://.godot/imported/Modern12.wav-8073d1b678a591b81f356d4ff59e5c79.sample to res://UI Soundpack/WAV/Modern12.wav
+res://.godot/imported/Modern13.wav-e6e2035626d0880794b5309db5ccbde9.sample to res://UI Soundpack/WAV/Modern13.wav
+res://.godot/imported/Modern14.wav-58f8f1f73eb683eb78de8b77020d5eb8.sample to res://UI Soundpack/WAV/Modern14.wav
+res://.godot/imported/Modern15.wav-58d2378d177d0ab39e5c21df93f51188.sample to res://UI Soundpack/WAV/Modern15.wav
+res://.godot/imported/Modern16.wav-3b99fb8738dd2baea09550ce19eaaa84.sample to res://UI Soundpack/WAV/Modern16.wav
+res://.godot/imported/Modern2.wav-c999e9a7bb6c0251d85a236b85946893.sample to res://UI Soundpack/WAV/Modern2.wav
+res://.godot/imported/Modern3.wav-b896944f7c11f823c14dfc38ad1a3f39.sample to res://UI Soundpack/WAV/Modern3.wav
+res://.godot/imported/Modern4.wav-a4a60cdc1c7474916acf9eccc9d59680.sample to res://UI Soundpack/WAV/Modern4.wav
+res://.godot/imported/Modern5.wav-dbccda881596cfd468bab86fafb4df86.sample to res://UI Soundpack/WAV/Modern5.wav
+res://.godot/imported/Modern6.wav-ac7ab5fcd82dea18ba5adc5c20f613e0.sample to res://UI Soundpack/WAV/Modern6.wav
+res://.godot/imported/Modern7.wav-bbca28f3f867334ac93d13ad307dd993.sample to res://UI Soundpack/WAV/Modern7.wav
+res://.godot/imported/Modern8.wav-da411948332f6b4ec6ffc573ed7414e1.sample to res://UI Soundpack/WAV/Modern8.wav
+res://.godot/imported/Modern9.wav-de76db9c8f2c8da32b4bd3e26ec81864.sample to res://UI Soundpack/WAV/Modern9.wav
+res://.godot/imported/Retro1.wav-35367b7c0f58e334c6416c2f7a18237e.sample to res://UI Soundpack/WAV/Retro1.wav
+res://.godot/imported/Retro10.wav-39db37c307671dcd7be675f1344faa0f.sample to res://UI Soundpack/WAV/Retro10.wav
+res://.godot/imported/Retro11.wav-9a9d050fabdf979a1d3efd45e980f885.sample to res://UI Soundpack/WAV/Retro11.wav
+res://.godot/imported/Retro12.wav-aca7b306f48244eb71f3b8dcf5ef9e45.sample to res://UI Soundpack/WAV/Retro12.wav
+res://.godot/imported/Retro2.wav-796a199f790cecd3df2f9a9a25837e8b.sample to res://UI Soundpack/WAV/Retro2.wav
+res://.godot/imported/Retro3.wav-a9cf973372f3f53cde7dbc867ccec4d6.sample to res://UI Soundpack/WAV/Retro3.wav
+res://.godot/imported/Retro4.wav-0485039b1665c12eadee2c9d6710166b.sample to res://UI Soundpack/WAV/Retro4.wav
+res://.godot/imported/Retro5.wav-04075dc2915dffb2fac57fc792f2bc6a.sample to res://UI Soundpack/WAV/Retro5.wav
+res://.godot/imported/Retro6.wav-3516a93321226128b53c1674c0d58bc5.sample to res://UI Soundpack/WAV/Retro6.wav
+res://.godot/imported/Retro7.wav-8a106e6c9a7e8d0c47dc009603ea4619.sample to res://UI Soundpack/WAV/Retro7.wav
+res://.godot/imported/Retro8.wav-f484d7f4167af984d44eb7ba505ac864.sample to res://UI Soundpack/WAV/Retro8.wav
+res://.godot/imported/Retro9.wav-20174d15e12aad3df760de55880e8f8e.sample to res://UI Soundpack/WAV/Retro9.wav
+res://.godot/imported/Wood Block1.wav-9bf7473753d1426372c7fe402b75d3c0.sample to res://UI Soundpack/WAV/Wood Block1.wav
+res://.godot/imported/Wood Block2.wav-4a28fafe5b8a4138a7376023716d2fae.sample to res://UI Soundpack/WAV/Wood Block2.wav
+res://.godot/imported/Wood Block3.wav-c79c43190da96af38b573d38a915125b.sample to res://UI Soundpack/WAV/Wood Block3.wav
+res://.godot/imported/Roboto-Black.ttf-3a6d23129386c63e405f432555863239.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Black.ttf
+res://.godot/imported/Roboto-BlackItalic.ttf-936da28d87aadc879dfcb940800f101c.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-BlackItalic.ttf
+res://.godot/imported/Roboto-Bold.ttf-954b76472f748217715da476df245179.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Bold.ttf
+res://.godot/imported/Roboto-BoldItalic.ttf-0a60b877d73eb184f621154654b7c39f.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-BoldItalic.ttf
+res://.godot/imported/Roboto-Italic.ttf-2b59c8d82a1cdf52d8bdeb53c078071a.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Italic.ttf
+res://.godot/imported/Roboto-Light.ttf-edc04cc2498312e3cc4e0b143b523785.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Light.ttf
+res://.godot/imported/Roboto-LightItalic.ttf-a63677b9eb5bd1be06bd746031e05f60.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-LightItalic.ttf
+res://.godot/imported/Roboto-Medium.ttf-0f924a451ced4814f3a105b116e43327.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Medium.ttf
+res://.godot/imported/Roboto-MediumItalic.ttf-743d1eb483a26229609e0e229f26d44f.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-MediumItalic.ttf
+res://.godot/imported/Roboto-Regular.ttf-317ae00b13e20e427fb68c7e751997fd.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Regular.ttf
+res://.godot/imported/Roboto-Thin.ttf-116bf0b55b8b810dc526d18a47965c0e.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Thin.ttf
+res://.godot/imported/Roboto-ThinItalic.ttf-6096d6e7d19228df21ba963af2d824dd.fontdata to res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-ThinItalic.ttf
+res://.godot/imported/duality.otf-27bb93c2d36e2f149db80768fe96ae45.fontdata to res://duality.otf
+res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex to res://.assets/icon.png
+------
+
+The following files were converted and saved to a non-original path, but did not have their import data rewritten.
+These files will not be re-imported when loading the project.
+res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex to res://.assets/icon.png
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.2.0 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://m5cp40qi15dk"
+path="res://.godot/imported/duality.otf-27bb93c2d36e2f149db80768fe96ae45.fontdata"
+
+[deps]
+
+source_file="res://duality.otf"
+dest_files=PackedStringArray("res://.godot/imported/duality.otf-27bb93c2d36e2f149db80768fe96ae45.fontdata")
+
+[params]
+
+dummy_value_ignore_me=0

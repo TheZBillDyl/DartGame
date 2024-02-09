@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vexacj52i1vt"
+path="res://.godot/imported/African4.wav-7abfad838c078d6a8420efe815b61724.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/African4.wav"
+dest_files=PackedStringArray("res://.godot/imported/African4.wav-7abfad838c078d6a8420efe815b61724.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

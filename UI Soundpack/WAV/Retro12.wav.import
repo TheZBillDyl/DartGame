@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cirovuofumeug"
+path="res://.godot/imported/Retro12.wav-aca7b306f48244eb71f3b8dcf5ef9e45.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Retro12.wav"
+dest_files=PackedStringArray("res://.godot/imported/Retro12.wav-aca7b306f48244eb71f3b8dcf5ef9e45.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

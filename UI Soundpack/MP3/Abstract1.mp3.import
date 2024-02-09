@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgqnwsth7skbw"
+path="res://.godot/imported/Abstract1.mp3-e8b74d46717249caae5a0535e54f97c6.mp3str"
+
+[deps]
+
+source_file="res://UI Soundpack/MP3/Abstract1.mp3"
+dest_files=PackedStringArray("res://.godot/imported/Abstract1.mp3-e8b74d46717249caae5a0535e54f97c6.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

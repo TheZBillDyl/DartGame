@@ -1,0 +1,115 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://ScoreMode.gd" id="1"]
+[ext_resource type="Theme" uid="uid://dh5sh03x8kxtn" path="res://UITheme.tres" id="2"]
+[ext_resource type="PackedScene" uid="uid://yitm26rwab8y" path="res://dart_board.tscn" id="3"]
+[ext_resource type="Script" path="res://SelectionsUI.gd" id="4"]
+[ext_resource type="Script" path="res://Undo.gd" id="5"]
+[ext_resource type="Script" path="res://EndTurn.gd" id="6"]
+[ext_resource type="Script" path="res://ButtonSceneChange.gd" id="7"]
+[ext_resource type="Script" path="res://Response.gd" id="8"]
+
+[node name="X01" type="Node2D" node_paths=PackedStringArray("responseBox", "selectionManager", "menuButton")]
+script = ExtResource("1")
+modeName = "X01"
+description = "Be the first player to reach 0 without going under!"
+responseBox = NodePath("CanvasLayer/Control/Response")
+selectionManager = NodePath("CanvasLayer/Control/Dart Board")
+menuButton = NodePath("CanvasLayer/Control/VBoxContainer/Back to Menu")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("2")
+
+[node name="Panel" type="Panel" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dart Board" parent="CanvasLayer/Control" instance=ExtResource("3")]
+layout_mode = 1
+offset_top = -300.5
+offset_bottom = 300.5
+
+[node name="Current Turn" type="Label" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_right = 323.0
+offset_bottom = 95.0
+theme_override_font_sizes/font_size = 51
+text = "Dylan"
+horizontal_alignment = 1
+
+[node name="Selections" type="HBoxContainer" parent="CanvasLayer/Control" node_paths=PackedStringArray("dartBoard")]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -70.0
+offset_right = 182.0
+grow_vertical = 0
+theme_override_constants/separation = 40
+script = ExtResource("4")
+dartBoard = NodePath("../Dart Board")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -36.0
+offset_right = 128.0
+offset_bottom = 36.0
+grow_vertical = 2
+
+[node name="Undo" type="Button" parent="CanvasLayer/Control/VBoxContainer" node_paths=PackedStringArray("selectionsManager")]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "Undo"
+script = ExtResource("5")
+selectionsManager = NodePath("../../Dart Board")
+
+[node name="End Turn" type="Button" parent="CanvasLayer/Control/VBoxContainer" node_paths=PackedStringArray("gameMode")]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "End Turn"
+script = ExtResource("6")
+gameMode = NodePath("../../../..")
+
+[node name="Back to Menu" type="Button" parent="CanvasLayer/Control/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "Back to Menu"
+script = ExtResource("7")
+sceneToGoTo = "Main Menu"
+useSceneStringOnClick = true
+
+[node name="Response" type="Label" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 8.0
+offset_top = -210.0
+offset_right = 428.0
+offset_bottom = -86.0
+grow_vertical = 2
+text = "This is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem textThis is lorum ipsem text"
+autowrap_mode = 3
+clip_text = true
+uppercase = true
+script = ExtResource("8")

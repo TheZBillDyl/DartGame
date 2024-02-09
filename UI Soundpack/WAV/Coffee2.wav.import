@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wu757skuqih8"
+path="res://.godot/imported/Coffee2.wav-51d64f5562915acf655e26418dad2bd0.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Coffee2.wav"
+dest_files=PackedStringArray("res://.godot/imported/Coffee2.wav-51d64f5562915acf655e26418dad2bd0.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

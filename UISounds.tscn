@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://UISoundManager.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://cw08g7aeh0egh" path="res://UI Soundpack/MP3/Minimalist2.mp3" id="2"]
+[ext_resource type="AudioStream" uid="uid://cjnx73amgp1ya" path="res://UI Soundpack/MP3/Minimalist1.mp3" id="3"]
+
+[node name="UiSounds" type="Node" node_paths=PackedStringArray("uiSoundPlayer")]
+script = ExtResource("1")
+pressedSound = ExtResource("2")
+uiSoundPlayer = NodePath("AudioStreamPlayer")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3")

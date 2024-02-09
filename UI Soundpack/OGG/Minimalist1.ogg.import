@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cb5161j1cgm3w"
+path="res://.godot/imported/Minimalist1.ogg-53872b21385c0404755213d1a1165b4b.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI Soundpack/OGG/Minimalist1.ogg"
+dest_files=PackedStringArray("res://.godot/imported/Minimalist1.ogg-53872b21385c0404755213d1a1165b4b.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

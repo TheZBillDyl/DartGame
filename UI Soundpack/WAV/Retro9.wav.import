@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbqm8lswpcg12"
+path="res://.godot/imported/Retro9.wav-20174d15e12aad3df760de55880e8f8e.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Retro9.wav"
+dest_files=PackedStringArray("res://.godot/imported/Retro9.wav-20174d15e12aad3df760de55880e8f8e.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

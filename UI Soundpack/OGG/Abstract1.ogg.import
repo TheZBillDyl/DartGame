@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c0xlonu031fh1"
+path="res://.godot/imported/Abstract1.ogg-bca3231cd491aa006851a5c4f51eaffe.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI Soundpack/OGG/Abstract1.ogg"
+dest_files=PackedStringArray("res://.godot/imported/Abstract1.ogg-bca3231cd491aa006851a5c4f51eaffe.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

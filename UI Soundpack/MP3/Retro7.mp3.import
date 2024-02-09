@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://byb2y1kbh0a6i"
+path="res://.godot/imported/Retro7.mp3-ca62a85b68c3f12aad13c9e38f3f9a30.mp3str"
+
+[deps]
+
+source_file="res://UI Soundpack/MP3/Retro7.mp3"
+dest_files=PackedStringArray("res://.godot/imported/Retro7.mp3-ca62a85b68c3f12aad13c9e38f3f9a30.mp3str")
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dtwxtuvgt5xfg"
+path="res://.godot/imported/Layer 3.png-cc309152d16ee95f0239af7c0b4fa8eb.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Dart Pieces/Layer 3.png"
+dest_files=PackedStringArray("res://.godot/imported/Layer 3.png-cc309152d16ee95f0239af7c0b4fa8eb.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

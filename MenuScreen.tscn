@@ -1,0 +1,338 @@
+[gd_scene load_steps=17 format=3 uid="uid://2x2464myvufb"]
+
+[ext_resource type="Theme" uid="uid://ddf4s1o57ye87" path="res://UITheme.tres" id="1"]
+[ext_resource type="Script" path="res://UiControlElement.gd" id="2"]
+[ext_resource type="Script" path="res://ButtonSceneChange.gd" id="3"]
+[ext_resource type="Script" path="res://ProfileDeleteButton.gd" id="4"]
+[ext_resource type="Script" path="res://ProfileSelectorMenu.gd" id="5"]
+[ext_resource type="StyleBox" path="res://ButtonNormalFlipped.tres" id="6"]
+[ext_resource type="StyleBox" path="res://ButtonPressedFlipped.tres" id="7"]
+[ext_resource type="Script" path="res://SaveProfileUI.gd" id="8"]
+[ext_resource type="Script" path="res://addons/onscreenkeyboard/onscreen_keyboard.gd" id="9"]
+[ext_resource type="StyleBox" path="res://KeyboardButtonNormal.tres" id="10"]
+[ext_resource type="StyleBox" path="res://KeyboardButtonPressed.tres" id="11"]
+[ext_resource type="FontFile" uid="uid://dkf54c5tfeq3k" path="res://addons/onscreenkeyboard/customize/styles/Roboto/Roboto-Black.ttf" id="12"]
+[ext_resource type="Script" path="res://GameModeSelector.gd" id="13"]
+[ext_resource type="Script" path="res://AddPlayer.gd" id="14"]
+[ext_resource type="Script" path="res://ResetSetup.gd" id="15"]
+
+[sub_resource type="StyleBoxFlat" id="1"]
+bg_color = Color(0.568627, 0.568627, 0.568627, 1)
+
+[node name="Menu Screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+metadata/_edit_use_anchors_ = true
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Main" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Buttons" type="VBoxContainer" parent="Main"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -150.0
+offset_right = 397.0
+offset_bottom = 150.0
+grow_vertical = 2
+theme_override_constants/separation = 30
+
+[node name="Play" type="Button" parent="Main/Buttons" node_paths=PackedStringArray("element", "parent")]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+text = "Play"
+script = ExtResource("2")
+element = NodePath("../../../Game Setup")
+toggleValue = true
+parent = NodePath("../..")
+
+[node name="Profiles" type="Button" parent="Main/Buttons" node_paths=PackedStringArray("element", "parent")]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+text = "Profiles"
+script = ExtResource("2")
+element = NodePath("../../../Profiles")
+toggleValue = true
+parent = NodePath("../..")
+
+[node name="Quit" type="Button" parent="Main/Buttons"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+text = "Quit"
+script = ExtResource("3")
+sceneToGoTo = "Quit"
+useSceneStringOnClick = true
+
+[node name="Title" type="Label" parent="Main"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -497.0
+offset_top = -88.0
+offset_right = -135.0
+offset_bottom = 89.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 64
+text = "Darts"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Profiles" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Back" type="Button" parent="Profiles" node_paths=PackedStringArray("element", "parent")]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -80.0
+offset_right = 427.0
+grow_vertical = 0
+text = "Back"
+script = ExtResource("2")
+element = NodePath("../../Main")
+toggleValue = true
+parent = NodePath("..")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Profiles"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -124.0
+offset_right = 427.0
+offset_bottom = 124.0
+grow_vertical = 2
+alignment = 1
+
+[node name="Create" type="Button" parent="Profiles/VBoxContainer" node_paths=PackedStringArray("element", "parent")]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+text = "Create"
+script = ExtResource("2")
+element = NodePath("../../../Create Profile")
+toggleValue = true
+parent = NodePath("../..")
+
+[node name="Delete" type="Button" parent="Profiles/VBoxContainer" node_paths=PackedStringArray("profileOptionButton")]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+text = "Delete"
+script = ExtResource("4")
+profileOptionButton = NodePath("../../OptionButton")
+
+[node name="OptionButton" type="OptionButton" parent="Profiles"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -508.0
+offset_top = -52.5
+offset_bottom = 52.5
+grow_horizontal = 0
+grow_vertical = 2
+script = ExtResource("5")
+
+[node name="Create Profile" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Back" type="Button" parent="Create Profile" node_paths=PackedStringArray("element", "parent")]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 1
+offset_right = 427.0
+offset_bottom = 80.0
+text = "Back"
+script = ExtResource("2")
+element = NodePath("../../Profiles")
+toggleValue = true
+parent = NodePath("..")
+
+[node name="Submit" type="Button" parent="Create Profile" node_paths=PackedStringArray("inputField")]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -427.0
+offset_bottom = 80.0
+grow_horizontal = 0
+theme_override_styles/normal = ExtResource("6")
+theme_override_styles/hover = ExtResource("6")
+theme_override_styles/pressed = ExtResource("7")
+text = "Submit"
+script = ExtResource("8")
+inputField = NodePath("../Input")
+
+[node name="Input" type="TextEdit" parent="Create Profile"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -434.0
+offset_top = -49.0
+offset_right = 434.0
+offset_bottom = 49.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+placeholder_text = "Type your name here..."
+scroll_fit_content_height = true
+
+[node name="OnscreenKeyboard" type="PanelContainer" parent="Create Profile"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 628.0
+offset_bottom = 840.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("1")
+script = ExtResource("9")
+background = SubResource("1")
+normal = ExtResource("10")
+hover = ExtResource("10")
+pressed = ExtResource("11")
+font = ExtResource("12")
+
+[node name="Game Setup" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="UI Buttons" type="VBoxContainer" parent="Game Setup"]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -153.0
+offset_right = 300.0
+grow_vertical = 0
+alignment = 1
+
+[node name="Play" type="Button" parent="Game Setup/UI Buttons"]
+custom_minimum_size = Vector2(300, 80)
+layout_mode = 2
+text = "Play"
+script = ExtResource("3")
+
+[node name="Back" type="Button" parent="Game Setup/UI Buttons" node_paths=PackedStringArray("element", "parent")]
+custom_minimum_size = Vector2(300, 80)
+layout_mode = 2
+text = "Back"
+script = ExtResource("2")
+element = NodePath("../../../Main")
+toggleValue = true
+parent = NodePath("../..")
+
+[node name="Current Players" type="VBoxContainer" parent="Game Setup"]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -219.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Profiles" type="OptionButton" parent="Game Setup"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -675.0
+offset_top = -32.0
+offset_right = -366.0
+offset_bottom = 34.0003
+grow_horizontal = 0
+grow_vertical = 2
+script = ExtResource("5")
+
+[node name="GameMode" type="OptionButton" parent="Game Setup"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -268.5
+offset_right = 268.5
+offset_bottom = 94.0
+grow_horizontal = 2
+script = ExtResource("13")
+
+[node name="Add_Remove Player Buttons" type="VBoxContainer" parent="Game Setup"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -350.0
+offset_top = -62.0
+offset_right = -250.0
+offset_bottom = 62.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Add Player" type="Button" parent="Game Setup/Add_Remove Player Buttons" node_paths=PackedStringArray("currentPlayerListObject", "currentPlayer")]
+layout_mode = 2
+theme_override_font_sizes/font_size = 55
+text = "+"
+script = ExtResource("14")
+currentPlayerListObject = NodePath("../../Current Players")
+currentPlayer = NodePath("../../Profiles")
+
+[node name="Reset" type="Button" parent="Game Setup/Add_Remove Player Buttons" node_paths=PackedStringArray("addPlayerFunctionality")]
+layout_mode = 2
+theme_override_font_sizes/font_size = 55
+text = "-"
+script = ExtResource("15")
+addPlayerFunctionality = NodePath("../Add Player")

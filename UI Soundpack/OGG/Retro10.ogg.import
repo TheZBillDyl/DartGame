@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://csxgvmaghco6j"
+path="res://.godot/imported/Retro10.ogg-3b6f51216bae7dc16ecb92a809dce850.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI Soundpack/OGG/Retro10.ogg"
+dest_files=PackedStringArray("res://.godot/imported/Retro10.ogg-3b6f51216bae7dc16ecb92a809dce850.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

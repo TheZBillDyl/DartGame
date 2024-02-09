@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wabn0fiarh36"
+path="res://.godot/imported/Abstract2.wav-8fa0f6be3b819636a65045fdaea6c295.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Abstract2.wav"
+dest_files=PackedStringArray("res://.godot/imported/Abstract2.wav-8fa0f6be3b819636a65045fdaea6c295.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

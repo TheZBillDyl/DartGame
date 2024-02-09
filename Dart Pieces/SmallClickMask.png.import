@@ -1,0 +1,15 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://dvjmd4hvuu3tv"
+path="res://.godot/imported/SmallClickMask.png-6401149f41757e6fe6c7fe5680ba1ab7.res"
+
+[deps]
+
+source_file="res://Dart Pieces/SmallClickMask.png"
+dest_files=PackedStringArray("res://.godot/imported/SmallClickMask.png-6401149f41757e6fe6c7fe5680ba1ab7.res")
+
+[params]
+
+dummy_value_ignore_me=0

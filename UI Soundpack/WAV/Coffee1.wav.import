@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy15qcp1v7sts"
+path="res://.godot/imported/Coffee1.wav-474056f71c4a74d39c307f6a3a4e6ff0.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Coffee1.wav"
+dest_files=PackedStringArray("res://.godot/imported/Coffee1.wav-474056f71c4a74d39c307f6a3a4e6ff0.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

@@ -1,0 +1,16 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddvgkipt257k6"
+path="res://.godot/imported/Retro1.wav-35367b7c0f58e334c6416c2f7a18237e.sample"
+
+[deps]
+
+source_file="res://UI Soundpack/WAV/Retro1.wav"
+dest_files=PackedStringArray("res://.godot/imported/Retro1.wav-35367b7c0f58e334c6416c2f7a18237e.sample")
+
+[params]
+
+dummy_value_ignore_me=0
+compress/mode=0

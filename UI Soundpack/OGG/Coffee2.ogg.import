@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c82xe2nnalpjf"
+path="res://.godot/imported/Coffee2.ogg-e7e612dc7c02b4210147467b988eb82f.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI Soundpack/OGG/Coffee2.ogg"
+dest_files=PackedStringArray("res://.godot/imported/Coffee2.ogg-e7e612dc7c02b4210147467b988eb82f.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0
