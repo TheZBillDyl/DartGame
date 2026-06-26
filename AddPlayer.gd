@@ -19,7 +19,7 @@ func Add():
 			return
 	currentPlayerListObject.add_child(label)
 	GameManager.selectedPlayers.push_back(ProfileSystem.GetProfile(player))
-	
+	print("Added player: %s" % player)
 func Remove():
 	var node = currentPlayerListObject.get_children().pop_back()
 	if !node:
